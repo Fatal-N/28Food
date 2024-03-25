@@ -1,12 +1,15 @@
 /* O Corpo da página */
 body{
+    margin: 0;
+    padding: 0;
+    background-color: #e96969;
 
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(238, 236, 239);
+    background-color: #5aadc0;
 }
 
 .logo{
@@ -15,30 +18,75 @@ body{
     width: 80px;
     height: 80px;
 }
+/* Vamos tratar do MENU */
 .menu{
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
     align-items: center;
     justify-content: space-around;
-    width: 700px;
-    height: 50px;
+    width: 100%;
+    height: 30px;
+    font-family: curely, sans-serif;
+    font-size: 22px;
+}
+.menu a{
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: #fef0ee;
+    color: #117aa1;
 }
 .social{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
     width: 50px;
     height: 50px;
 }
+.fb:hover{
+    opacity: 0.7;
+}
+.in:hover{
+    opacity: 0.7;
+}
+/* Barra de Pesquisa */
 
-/* Vamos tratar do MENU */
-
-button{
-    width: 75px;
-    height: 45px;
-    background-color: #A5C5C3;
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+.pesquisa input[type=text]{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 30px;
+    background-color: #fef0ee;
     border-radius: 18px;
-    font-family: 'curely';
+    border: solid whitesmoke 3px;
+}
+.pesquisa ::placeholder{
+    color: #e96969;
+}
+.pesquisa input[type=submit]{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius:  20px;
+    background-color: #5aadc0;
+    color: whitesmoke;
+    border: solid #5aadc0 3px;
+
+    background-image: url("../icons/icons8-search-50.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
 }
 
+.pesquisa input[type=submit]:hover{
+    opacity: 0.9;
+}
 @import url('https://fonts.cdnfonts.com/css/curely');
