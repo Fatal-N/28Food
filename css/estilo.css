@@ -89,4 +89,74 @@ body{
 .pesquisa input[type=submit]:hover{
     opacity: 0.9;
 }
+.pesquisa input[type=text]:focus{
+    outline:none;
+}
+
+.a99{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #1f2e34;
+}
+/*Tratando do Slideshow*/
+.myslides{display:none;}
+
+.slideshow-container{
+    display: flex;
+    max-width: 800px;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.numbertext{
+    color:#5aadc0;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+}
+
+.dot{
+    height: 18px;
+    width: 18px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: rgb(151, 150, 150)
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+/*Receitas Container*/
+.container-receitas{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes fade{
+    from[opacity: 0.4;]
+    to {opacity: 1;}
+}
+
 @import url('https://fonts.cdnfonts.com/css/curely');
