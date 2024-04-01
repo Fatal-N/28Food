@@ -112,6 +112,10 @@ h1{
     margin: auto;
 }
 
+.slideimg{
+    border-radius: 20px;
+}
+
 .numbertext{
     color:#5aadc0;
     font-size: 18px;
@@ -146,12 +150,34 @@ h1{
     animation-duration: 1.5s;
 }
 
+.texto-receitas{
+    font-family: curely;
+    font-size: 40px;
+    color: #f7fdff;
+    text-align: center;
+}
+
 
 /*Receitas Container*/
 .container-receitas{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 22px;
+    color: #1f2e34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Rodapé página*/
+.rodape{
+    height: 250px;
+    width: auto;
+    background-color: #1c637d;
+}
+.receita-imagem{
+    border-radius: 20px;
 }
 
 @keyframes fade{
