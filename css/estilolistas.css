@@ -13,10 +13,25 @@
 }
 
 .receitabox{
-    width: 300px;
-    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    font-family: Asenine,sans-serif;
     color: #174a6f;
-    font-size: 18px;
-    padding: 30px;
+    font-size: 22px;
+    padding: 10px;
+    background-color: #f7fdff;
+    border-radius: 30px;
+    text-align: center;
+}
+.receitabox a:hover{
+    opacity: 0.7;
 
 }
+.receitabox a:visited{
+    color: #174a6f;
+}
+
+a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.cdnfonts.com/css/asenine');

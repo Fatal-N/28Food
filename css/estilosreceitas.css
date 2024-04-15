@@ -1,0 +1,71 @@
+.preparo {
+    background-image:url(../img/wallpaperlistrado.png);
+    padding: 30px;
+    font-size: 22PX;
+    font-style: italic;
+}
+ 
+.preparo:hover {
+    opacity: 0.9;
+}
+ 
+.receita {
+    font-size: 22px;
+    padding: 30px;
+    background-image:url(../img/wallpaperlistrado.png);
+    font-style: italic;
+ 
+}
+ 
+text {
+    color:  #16617c;
+    padding: 5px;
+    font-size: 35px;
+    font-family: Andra Cookie, sans-serif;
+}
+ 
+h4{
+    color:  #f7fdff;
+    font-size: 25px;
+    font-family: ;
+}
+
+h3{
+    color:  #5aadc0;
+    font-size: 35px;
+    font-family: Cookie, sans-serif;
+}
+
+h2{
+    color:  #f7fdff;
+    font-size: 28px;
+    font-family: ;
+}
+
+h1 {
+    color: #2c95bb;
+    font-size: 35px;
+    font-family: Kitchen Cookies, sans-serif;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    accent-color: #2c95bb;
+ 
+}
+.imagem_receita {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 350px;
+    padding: 50px;
+}
+.imagem_receita img {
+    border-radius: 15px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/cookie');
+@import url('https://fonts.cdnfonts.com/css/kitchen-cookies');
+@import url('https://fonts.cdnfonts.com/css/andra-cookie');
