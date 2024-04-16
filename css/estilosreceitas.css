@@ -1,8 +1,10 @@
 .preparo {
-    background-image:url(../img/wallpaperlistrado.png);
+    background-color:  #f7fdff;
     padding: 30px;
     font-size: 22PX;
     font-style: italic;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
  
 .preparo:hover {
@@ -18,10 +20,10 @@
 }
  
 text {
-    color:  #16617c;
+    color:  #186e8d;
     padding: 5px;
     font-size: 35px;
-    font-family: Andra Cookie, sans-serif;
+    font-family: Aztec Way;
 }
  
 h4{
@@ -68,4 +70,4 @@ input[type="checkbox"]{
 
 @import url('https://fonts.cdnfonts.com/css/cookie');
 @import url('https://fonts.cdnfonts.com/css/kitchen-cookies');
-@import url('https://fonts.cdnfonts.com/css/andra-cookie');
+@import url('https://fonts.cdnfonts.com/css/aztec-way');
