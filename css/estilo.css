@@ -100,6 +100,8 @@ body{
 
 h1{
     color: #f0faff;
+    font-size: 40px;
+    font-family: 'Maple Glaze', sans-serif;
 }
 /*Tratando do Slideshow*/
 .myslides{display:none;}
@@ -170,19 +172,36 @@ h1{
 }
 
 /*Rodapé página*/
-.rodape{
-    height: 250px;
+.rodape-container {
+    height: 300px;
     width: auto;
-    background-color: #1c637d;
-}
-.receita-imagem{
-    border-radius: 20px;
-}
+    background-color: #5aadc0;
 
-@keyframes fade{
-    from[opacity: 0.4;]
-    to {opacity: 1;}
 }
-
+ 
+.receita-imagem {
+    border-radius: 50%;
+ 
+}
+ 
+.rodape a {
+margin-top: 17px;
+border-radius: 20px;
+padding: 5px 5px 5px 5px;
+color: whitesmoke;
+text-decoration: none;
+}
+ 
+.map{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Maple Glaze', sans-serif;
+}
+.map :hover{
+    opacity: 7;
+   
+}
 @import url('https://fonts.cdnfonts.com/css/curely');
 @import url('https://fonts.cdnfonts.com/css/kitchen-cookies');
+@import url('https://fonts.cdnfonts.com/css/maple-glaze');
