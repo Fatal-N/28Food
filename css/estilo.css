@@ -97,10 +97,13 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.a98{
+    display: flex;
+    justify-content: center;
+}
 h1{
     color: #f0faff;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Maple Glaze', sans-serif;
 }
 /*Tratando do Slideshow*/

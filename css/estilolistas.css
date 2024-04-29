@@ -34,5 +34,13 @@ a{
     text-decoration: none;
 }
 
+h2{
+    color: #f0faff;
+    font-size: 35px;
+    font-family: 'Isidora Soft alt', sans-serif;
+    padding: 20px
+
+}
 @import url('https://fonts.cdnfonts.com/css/asenine');
 @import url('https://fonts.cdnfonts.com/css/maple-glaze');
+@import url('https://fonts.cdnfonts.com/css/isidora-soft-alt');
